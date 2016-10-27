@@ -37,7 +37,7 @@ config :phoenix, :stacktrace_depth, 20
 config :phoenix_blog, PhoenixBlog.Repo,
   adapter: Ecto.Adapters.MySQL,
   username: "root",
-  password: "",
+  password: "root",
   database: "phoenix_blog_dev",
   hostname: "localhost",
   pool_size: 10
