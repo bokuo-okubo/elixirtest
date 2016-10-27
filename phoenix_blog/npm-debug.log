@@ -1,0 +1,653 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/vagrant/phoenix_blog',
+6 verbose install   [ 'phoenix',
+6 verbose install     'phoenix_html',
+6 verbose install     'babel-brunch',
+6 verbose install     'brunch',
+6 verbose install     'clean-css-brunch',
+6 verbose install     'css-brunch',
+6 verbose install     'javascript-brunch',
+6 verbose install     'uglify-js-brunch' ] ]
+7 info preinstall @
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'phoenix@file:deps/phoenix', null ]
+10 verbose cache add name=undefined spec="phoenix@file:deps/phoenix" args=["phoenix@file:deps/phoenix",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'phoenix@file:deps/phoenix',
+11 verbose parsed url   path: 'phoenix@file:deps/phoenix',
+11 verbose parsed url   href: 'phoenix@file:deps/phoenix' }
+12 verbose cache add [ 'phoenix_html@file:deps/phoenix_html', null ]
+13 verbose cache add name=undefined spec="phoenix_html@file:deps/phoenix_html" args=["phoenix_html@file:deps/phoenix_html",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'phoenix_html@file:deps/phoenix_html',
+14 verbose parsed url   path: 'phoenix_html@file:deps/phoenix_html',
+14 verbose parsed url   href: 'phoenix_html@file:deps/phoenix_html' }
+15 verbose cache add [ 'babel-brunch@~6.0.0', null ]
+16 verbose cache add name=undefined spec="babel-brunch@~6.0.0" args=["babel-brunch@~6.0.0",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'babel-brunch@~6.0.0',
+17 verbose parsed url   path: 'babel-brunch@~6.0.0',
+17 verbose parsed url   href: 'babel-brunch@~6.0.0' }
+18 verbose cache add [ 'brunch@2.7.4', null ]
+19 verbose cache add name=undefined spec="brunch@2.7.4" args=["brunch@2.7.4",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'brunch@2.7.4',
+20 verbose parsed url   path: 'brunch@2.7.4',
+20 verbose parsed url   href: 'brunch@2.7.4' }
+21 verbose cache add name="phoenix" spec="file:deps/phoenix" args=["phoenix","file:deps/phoenix"]
+22 verbose parsed url { protocol: 'file:',
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'deps/phoenix',
+22 verbose parsed url   path: 'deps/phoenix',
+22 verbose parsed url   href: 'file:deps/phoenix' }
+23 verbose addNamed [ 'phoenix', 'file:deps/phoenix' ]
+24 verbose addNamed [ null, null ]
+25 verbose cache add [ 'clean-css-brunch@~2.0.0', null ]
+26 verbose cache add name=undefined spec="clean-css-brunch@~2.0.0" args=["clean-css-brunch@~2.0.0",null]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'clean-css-brunch@~2.0.0',
+27 verbose parsed url   path: 'clean-css-brunch@~2.0.0',
+27 verbose parsed url   href: 'clean-css-brunch@~2.0.0' }
+28 verbose cache add name="phoenix_html" spec="file:deps/phoenix_html" args=["phoenix_html","file:deps/phoenix_html"]
+29 verbose parsed url { protocol: 'file:',
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'deps/phoenix_html',
+29 verbose parsed url   path: 'deps/phoenix_html',
+29 verbose parsed url   href: 'file:deps/phoenix_html' }
+30 verbose addNamed [ 'phoenix_html', 'file:deps/phoenix_html' ]
+31 verbose addNamed [ null, null ]
+32 verbose cache add name="babel-brunch" spec="~6.0.0" args=["babel-brunch","~6.0.0"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: '~6.0.0',
+33 verbose parsed url   path: '~6.0.0',
+33 verbose parsed url   href: '~6.0.0' }
+34 verbose addNamed [ 'babel-brunch', '~6.0.0' ]
+35 verbose addNamed [ null, '>=6.0.0-0 <6.1.0-0' ]
+36 silly lockFile 25706d37-phoenix-file-deps-phoenix phoenix@file:deps/phoenix
+37 verbose lock phoenix@file:deps/phoenix /home/vagrant/.npm/25706d37-phoenix-file-deps-phoenix.lock
+38 silly lockFile 3d88e48d-enix-html-file-deps-phoenix-html phoenix_html@file:deps/phoenix_html
+39 verbose lock phoenix_html@file:deps/phoenix_html /home/vagrant/.npm/3d88e48d-enix-html-file-deps-phoenix-html.lock
+40 silly lockFile 6b74a846-babel-brunch-6-0-0 babel-brunch@~6.0.0
+41 verbose lock babel-brunch@~6.0.0 /home/vagrant/.npm/6b74a846-babel-brunch-6-0-0.lock
+42 verbose cache add [ 'css-brunch@~2.0.0', null ]
+43 verbose cache add name=undefined spec="css-brunch@~2.0.0" args=["css-brunch@~2.0.0",null]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'css-brunch@~2.0.0',
+44 verbose parsed url   path: 'css-brunch@~2.0.0',
+44 verbose parsed url   href: 'css-brunch@~2.0.0' }
+45 verbose cache add [ 'javascript-brunch@~2.0.0', null ]
+46 verbose cache add name=undefined spec="javascript-brunch@~2.0.0" args=["javascript-brunch@~2.0.0",null]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: 'javascript-brunch@~2.0.0',
+47 verbose parsed url   path: 'javascript-brunch@~2.0.0',
+47 verbose parsed url   href: 'javascript-brunch@~2.0.0' }
+48 verbose cache add [ 'uglify-js-brunch@~2.0.1', null ]
+49 verbose cache add name=undefined spec="uglify-js-brunch@~2.0.1" args=["uglify-js-brunch@~2.0.1",null]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: 'uglify-js-brunch@~2.0.1',
+50 verbose parsed url   path: 'uglify-js-brunch@~2.0.1',
+50 verbose parsed url   href: 'uglify-js-brunch@~2.0.1' }
+51 verbose cache add name="brunch" spec="2.7.4" args=["brunch","2.7.4"]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: '2.7.4',
+52 verbose parsed url   path: '2.7.4',
+52 verbose parsed url   href: '2.7.4' }
+53 verbose addNamed [ 'brunch', '2.7.4' ]
+54 verbose addNamed [ '2.7.4', '2.7.4' ]
+55 silly lockFile 34741395-brunch-2-7-4 brunch@2.7.4
+56 verbose lock brunch@2.7.4 /home/vagrant/.npm/34741395-brunch-2-7-4.lock
+57 verbose cache add name="clean-css-brunch" spec="~2.0.0" args=["clean-css-brunch","~2.0.0"]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: '~2.0.0',
+58 verbose parsed url   path: '~2.0.0',
+58 verbose parsed url   href: '~2.0.0' }
+59 verbose addNamed [ 'clean-css-brunch', '~2.0.0' ]
+60 verbose addNamed [ null, '>=2.0.0-0 <2.1.0-0' ]
+61 silly lockFile 2cc3d744-clean-css-brunch-2-0-0 clean-css-brunch@~2.0.0
+62 verbose lock clean-css-brunch@~2.0.0 /home/vagrant/.npm/2cc3d744-clean-css-brunch-2-0-0.lock
+63 verbose cache add name="css-brunch" spec="~2.0.0" args=["css-brunch","~2.0.0"]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: '~2.0.0',
+64 verbose parsed url   path: '~2.0.0',
+64 verbose parsed url   href: '~2.0.0' }
+65 verbose addNamed [ 'css-brunch', '~2.0.0' ]
+66 verbose addNamed [ null, '>=2.0.0-0 <2.1.0-0' ]
+67 silly lockFile 1da32090-css-brunch-2-0-0 css-brunch@~2.0.0
+68 verbose lock css-brunch@~2.0.0 /home/vagrant/.npm/1da32090-css-brunch-2-0-0.lock
+69 verbose cache add name="javascript-brunch" spec="~2.0.0" args=["javascript-brunch","~2.0.0"]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: '~2.0.0',
+70 verbose parsed url   path: '~2.0.0',
+70 verbose parsed url   href: '~2.0.0' }
+71 verbose addNamed [ 'javascript-brunch', '~2.0.0' ]
+72 verbose addNamed [ null, '>=2.0.0-0 <2.1.0-0' ]
+73 silly lockFile ba3f7e2f-javascript-brunch-2-0-0 javascript-brunch@~2.0.0
+74 verbose lock javascript-brunch@~2.0.0 /home/vagrant/.npm/ba3f7e2f-javascript-brunch-2-0-0.lock
+75 verbose cache add name="uglify-js-brunch" spec="~2.0.1" args=["uglify-js-brunch","~2.0.1"]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: '~2.0.1',
+76 verbose parsed url   path: '~2.0.1',
+76 verbose parsed url   href: '~2.0.1' }
+77 verbose addNamed [ 'uglify-js-brunch', '~2.0.1' ]
+78 verbose addNamed [ null, '>=2.0.1-0 <2.1.0-0' ]
+79 silly lockFile d368487a-uglify-js-brunch-2-0-1 uglify-js-brunch@~2.0.1
+80 verbose lock uglify-js-brunch@~2.0.1 /home/vagrant/.npm/d368487a-uglify-js-brunch-2-0-1.lock
+81 info addNameTag [ 'phoenix', 'file:deps/phoenix' ]
+82 info addNameTag [ 'phoenix_html', 'file:deps/phoenix_html' ]
+83 silly addNameRange { name: 'babel-brunch',
+83 silly addNameRange   range: '>=6.0.0-0 <6.1.0-0',
+83 silly addNameRange   hasData: false }
+84 silly addNameRange { name: 'clean-css-brunch',
+84 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
+84 silly addNameRange   hasData: false }
+85 silly addNameRange { name: 'css-brunch',
+85 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
+85 silly addNameRange   hasData: false }
+86 silly addNameRange { name: 'javascript-brunch',
+86 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
+86 silly addNameRange   hasData: false }
+87 silly addNameRange { name: 'uglify-js-brunch',
+87 silly addNameRange   range: '>=2.0.1-0 <2.1.0-0',
+87 silly addNameRange   hasData: false }
+88 verbose request where is /phoenix
+89 verbose request registry https://registry.npmjs.org/
+90 verbose request id c73857751451b4ec
+91 verbose url raw /phoenix
+92 verbose url resolving [ 'https://registry.npmjs.org/', './phoenix' ]
+93 verbose url resolved https://registry.npmjs.org/phoenix
+94 verbose request where is https://registry.npmjs.org/phoenix
+95 info trying registry request attempt 1 at 13:31:17
+96 verbose etag "4A5F4MW0TO0VKS93CASV2C3TF"
+97 http GET https://registry.npmjs.org/phoenix
+98 verbose request where is /phoenix_html
+99 verbose request registry https://registry.npmjs.org/
+100 verbose url raw /phoenix_html
+101 verbose url resolving [ 'https://registry.npmjs.org/', './phoenix_html' ]
+102 verbose url resolved https://registry.npmjs.org/phoenix_html
+103 verbose request where is https://registry.npmjs.org/phoenix_html
+104 info trying registry request attempt 1 at 13:31:17
+105 http GET https://registry.npmjs.org/phoenix_html
+106 verbose request where is /babel-brunch
+107 verbose request registry https://registry.npmjs.org/
+108 verbose url raw /babel-brunch
+109 verbose url resolving [ 'https://registry.npmjs.org/', './babel-brunch' ]
+110 verbose url resolved https://registry.npmjs.org/babel-brunch
+111 verbose request where is https://registry.npmjs.org/babel-brunch
+112 info trying registry request attempt 1 at 13:31:17
+113 verbose etag "3KJ2FP8KIHGG2Z3EHRJ68ETJD"
+114 http GET https://registry.npmjs.org/babel-brunch
+115 verbose request where is /brunch
+116 verbose request registry https://registry.npmjs.org/
+117 verbose url raw /brunch
+118 verbose url resolving [ 'https://registry.npmjs.org/', './brunch' ]
+119 verbose url resolved https://registry.npmjs.org/brunch
+120 verbose request where is https://registry.npmjs.org/brunch
+121 info trying registry request attempt 1 at 13:31:17
+122 verbose etag "5IXEIH3V1T5S11YC2434TNDNL"
+123 http GET https://registry.npmjs.org/brunch
+124 verbose request where is /clean-css-brunch
+125 verbose request registry https://registry.npmjs.org/
+126 verbose url raw /clean-css-brunch
+127 verbose url resolving [ 'https://registry.npmjs.org/', './clean-css-brunch' ]
+128 verbose url resolved https://registry.npmjs.org/clean-css-brunch
+129 verbose request where is https://registry.npmjs.org/clean-css-brunch
+130 info trying registry request attempt 1 at 13:31:17
+131 verbose etag "5MPZPCMAI74IWZRADCMJFIHZW"
+132 http GET https://registry.npmjs.org/clean-css-brunch
+133 verbose request where is /css-brunch
+134 verbose request registry https://registry.npmjs.org/
+135 verbose url raw /css-brunch
+136 verbose url resolving [ 'https://registry.npmjs.org/', './css-brunch' ]
+137 verbose url resolved https://registry.npmjs.org/css-brunch
+138 verbose request where is https://registry.npmjs.org/css-brunch
+139 info trying registry request attempt 1 at 13:31:17
+140 verbose etag "4YX2L1NJVSI2XGV2B6L7CKNYH"
+141 http GET https://registry.npmjs.org/css-brunch
+142 verbose request where is /javascript-brunch
+143 verbose request registry https://registry.npmjs.org/
+144 verbose url raw /javascript-brunch
+145 verbose url resolving [ 'https://registry.npmjs.org/', './javascript-brunch' ]
+146 verbose url resolved https://registry.npmjs.org/javascript-brunch
+147 verbose request where is https://registry.npmjs.org/javascript-brunch
+148 info trying registry request attempt 1 at 13:31:17
+149 verbose etag "29I869TOMAOKBX6F9X34ADN83"
+150 http GET https://registry.npmjs.org/javascript-brunch
+151 verbose request where is /uglify-js-brunch
+152 verbose request registry https://registry.npmjs.org/
+153 verbose url raw /uglify-js-brunch
+154 verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js-brunch' ]
+155 verbose url resolved https://registry.npmjs.org/uglify-js-brunch
+156 verbose request where is https://registry.npmjs.org/uglify-js-brunch
+157 info trying registry request attempt 1 at 13:31:17
+158 verbose etag "13FU9J8Y5W216UTLU2ZRS4T4M"
+159 http GET https://registry.npmjs.org/uglify-js-brunch
+160 http 304 https://registry.npmjs.org/brunch
+161 silly registry.get cb [ 304,
+161 silly registry.get   { date: 'Thu, 27 Oct 2016 13:31:17 GMT',
+161 silly registry.get     via: '1.1 varnish',
+161 silly registry.get     'cache-control': 'max-age=300',
+161 silly registry.get     etag: '"5IXEIH3V1T5S11YC2434TNDNL"',
+161 silly registry.get     age: '0',
+161 silly registry.get     connection: 'keep-alive',
+161 silly registry.get     'x-served-by': 'cache-nrt6120-NRT',
+161 silly registry.get     'x-cache': 'MISS',
+161 silly registry.get     'x-cache-hits': '0',
+161 silly registry.get     'x-timer': 'S1477575077.689489,VS0,VE151',
+161 silly registry.get     vary: 'Accept-Encoding' } ]
+162 verbose etag https://registry.npmjs.org/brunch from cache
+163 http 304 https://registry.npmjs.org/phoenix
+164 silly registry.get cb [ 304,
+164 silly registry.get   { date: 'Thu, 27 Oct 2016 13:31:17 GMT',
+164 silly registry.get     via: '1.1 varnish',
+164 silly registry.get     'cache-control': 'max-age=300',
+164 silly registry.get     etag: '"4A5F4MW0TO0VKS93CASV2C3TF"',
+164 silly registry.get     age: '0',
+164 silly registry.get     connection: 'keep-alive',
+164 silly registry.get     'x-served-by': 'cache-nrt6124-NRT',
+164 silly registry.get     'x-cache': 'MISS',
+164 silly registry.get     'x-cache-hits': '0',
+164 silly registry.get     'x-timer': 'S1477575077.688144,VS0,VE163',
+164 silly registry.get     vary: 'Accept-Encoding' } ]
+165 verbose etag https://registry.npmjs.org/phoenix from cache
+166 info maybeGithub Attempting file:deps/phoenix from git://github.com/file:deps/phoenix
+167 silly lockFile 6d5f9840-git-github-com-file-deps-phoenix git://github.com/file:deps/phoenix
+168 verbose lock git://github.com/file:deps/phoenix /home/vagrant/.npm/6d5f9840-git-github-com-file-deps-phoenix.lock
+169 verbose addRemoteGit [ 'git://github.com/file:deps/phoenix', 'master' ]
+170 warn `git config --get remote.origin.url` returned wrong result (git://github.com/file:deps/phoenix) undefined
+170 warn `git config --get remote.origin.url` returned wrong result (git://github.com/file:deps/phoenix) undefined
+171 silly lockFile 34741395-brunch-2-7-4 brunch@2.7.4
+172 silly lockFile 34741395-brunch-2-7-4 brunch@2.7.4
+173 verbose git clone git://github.com/file:deps/phoenix undefined
+173 verbose git clone git://github.com/file:deps/phoenix undefined
+174 silly lockFile 6d5f9840-git-github-com-file-deps-phoenix git://github.com/file:deps/phoenix
+175 silly lockFile 6d5f9840-git-github-com-file-deps-phoenix git://github.com/file:deps/phoenix
+176 info maybeGithub Attempting file:deps/phoenix from git+ssh://git@github.com:file:deps/phoenix
+177 silly lockFile c83d6c1a-git-github-com-file-deps-phoenix git@github.com:file:deps/phoenix
+178 verbose lock git@github.com:file:deps/phoenix /home/vagrant/.npm/c83d6c1a-git-github-com-file-deps-phoenix.lock
+179 verbose addRemoteGit [ 'git@github.com:file:deps/phoenix', 'master' ]
+180 warn `git config --get remote.origin.url` returned wrong result (git@github.com:file:deps/phoenix) undefined
+180 warn `git config --get remote.origin.url` returned wrong result (git@github.com:file:deps/phoenix) undefined
+181 error git clone git@github.com:file:deps/phoenix undefined
+181 error git clone git@github.com:file:deps/phoenix undefined
+182 silly lockFile c83d6c1a-git-github-com-file-deps-phoenix git@github.com:file:deps/phoenix
+183 silly lockFile c83d6c1a-git-github-com-file-deps-phoenix git@github.com:file:deps/phoenix
+184 silly lockFile 25706d37-phoenix-file-deps-phoenix phoenix@file:deps/phoenix
+185 silly lockFile 25706d37-phoenix-file-deps-phoenix phoenix@file:deps/phoenix
+186 http 304 https://registry.npmjs.org/clean-css-brunch
+187 silly registry.get cb [ 304,
+187 silly registry.get   { date: 'Thu, 27 Oct 2016 13:31:17 GMT',
+187 silly registry.get     via: '1.1 varnish',
+187 silly registry.get     'cache-control': 'max-age=300',
+187 silly registry.get     etag: '"5MPZPCMAI74IWZRADCMJFIHZW"',
+187 silly registry.get     age: '0',
+187 silly registry.get     connection: 'keep-alive',
+187 silly registry.get     'x-served-by': 'cache-nrt6130-NRT',
+187 silly registry.get     'x-cache': 'HIT',
+187 silly registry.get     'x-cache-hits': '1',
+187 silly registry.get     'x-timer': 'S1477575077.703670,VS0,VE187',
+187 silly registry.get     vary: 'Accept-Encoding' } ]
+188 verbose etag https://registry.npmjs.org/clean-css-brunch from cache
+189 silly addNameRange number 2 { name: 'clean-css-brunch',
+189 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
+189 silly addNameRange   hasData: true }
+190 silly addNameRange versions [ 'clean-css-brunch',
+190 silly addNameRange   [ '1.0.0',
+190 silly addNameRange     '1.1.0',
+190 silly addNameRange     '1.1.1',
+190 silly addNameRange     '1.3.0',
+190 silly addNameRange     '1.4.0',
+190 silly addNameRange     '1.5.0',
+190 silly addNameRange     '1.5.1',
+190 silly addNameRange     '1.6.0',
+190 silly addNameRange     '1.7.0',
+190 silly addNameRange     '1.7.1',
+190 silly addNameRange     '1.7.2',
+190 silly addNameRange     '1.8.0',
+190 silly addNameRange     '2.0.0' ] ]
+191 verbose addNamed [ 'clean-css-brunch', '2.0.0' ]
+192 verbose addNamed [ '2.0.0', '2.0.0' ]
+193 silly lockFile 9c5c8935-clean-css-brunch-2-0-0 clean-css-brunch@2.0.0
+194 verbose lock clean-css-brunch@2.0.0 /home/vagrant/.npm/9c5c8935-clean-css-brunch-2-0-0.lock
+195 silly lockFile 9c5c8935-clean-css-brunch-2-0-0 clean-css-brunch@2.0.0
+196 silly lockFile 9c5c8935-clean-css-brunch-2-0-0 clean-css-brunch@2.0.0
+197 silly lockFile 2cc3d744-clean-css-brunch-2-0-0 clean-css-brunch@~2.0.0
+198 silly lockFile 2cc3d744-clean-css-brunch-2-0-0 clean-css-brunch@~2.0.0
+199 http 304 https://registry.npmjs.org/babel-brunch
+200 silly registry.get cb [ 304,
+200 silly registry.get   { date: 'Thu, 27 Oct 2016 13:31:17 GMT',
+200 silly registry.get     via: '1.1 varnish',
+200 silly registry.get     'cache-control': 'max-age=300',
+200 silly registry.get     etag: '"3KJ2FP8KIHGG2Z3EHRJ68ETJD"',
+200 silly registry.get     age: '0',
+200 silly registry.get     connection: 'keep-alive',
+200 silly registry.get     'x-served-by': 'cache-nrt6132-NRT',
+200 silly registry.get     'x-cache': 'MISS',
+200 silly registry.get     'x-cache-hits': '0',
+200 silly registry.get     'x-timer': 'S1477575077.699694,VS0,VE211',
+200 silly registry.get     vary: 'Accept-Encoding' } ]
+201 verbose etag https://registry.npmjs.org/babel-brunch from cache
+202 silly addNameRange number 2 { name: 'babel-brunch',
+202 silly addNameRange   range: '>=6.0.0-0 <6.1.0-0',
+202 silly addNameRange   hasData: true }
+203 silly addNameRange versions [ 'babel-brunch',
+203 silly addNameRange   [ '4.0.0',
+203 silly addNameRange     '5.0.0',
+203 silly addNameRange     '5.0.1',
+203 silly addNameRange     '5.1.0',
+203 silly addNameRange     '5.1.1',
+203 silly addNameRange     '5.1.2',
+203 silly addNameRange     '6.0.0',
+203 silly addNameRange     '6.0.1',
+203 silly addNameRange     '6.0.2',
+203 silly addNameRange     '6.0.3',
+203 silly addNameRange     '6.0.4',
+203 silly addNameRange     '6.0.5',
+203 silly addNameRange     '6.0.6' ] ]
+204 verbose addNamed [ 'babel-brunch', '6.0.6' ]
+205 verbose addNamed [ '6.0.6', '6.0.6' ]
+206 silly lockFile cd22ecc2-babel-brunch-6-0-6 babel-brunch@6.0.6
+207 verbose lock babel-brunch@6.0.6 /home/vagrant/.npm/cd22ecc2-babel-brunch-6-0-6.lock
+208 silly lockFile cd22ecc2-babel-brunch-6-0-6 babel-brunch@6.0.6
+209 silly lockFile cd22ecc2-babel-brunch-6-0-6 babel-brunch@6.0.6
+210 silly lockFile 6b74a846-babel-brunch-6-0-0 babel-brunch@~6.0.0
+211 silly lockFile 6b74a846-babel-brunch-6-0-0 babel-brunch@~6.0.0
+212 http 304 https://registry.npmjs.org/uglify-js-brunch
+213 silly registry.get cb [ 304,
+213 silly registry.get   { date: 'Thu, 27 Oct 2016 13:31:17 GMT',
+213 silly registry.get     via: '1.1 varnish',
+213 silly registry.get     'cache-control': 'max-age=300',
+213 silly registry.get     etag: '"13FU9J8Y5W216UTLU2ZRS4T4M"',
+213 silly registry.get     age: '0',
+213 silly registry.get     connection: 'keep-alive',
+213 silly registry.get     'x-served-by': 'cache-nrt6130-NRT',
+213 silly registry.get     'x-cache': 'HIT',
+213 silly registry.get     'x-cache-hits': '1',
+213 silly registry.get     'x-timer': 'S1477575077.897108,VS0,VE160',
+213 silly registry.get     vary: 'Accept-Encoding' } ]
+214 verbose etag https://registry.npmjs.org/uglify-js-brunch from cache
+215 silly addNameRange number 2 { name: 'uglify-js-brunch',
+215 silly addNameRange   range: '>=2.0.1-0 <2.1.0-0',
+215 silly addNameRange   hasData: true }
+216 silly addNameRange versions [ 'uglify-js-brunch',
+216 silly addNameRange   [ '1.0.0',
+216 silly addNameRange     '1.1.0',
+216 silly addNameRange     '1.1.1',
+216 silly addNameRange     '1.3.0',
+216 silly addNameRange     '1.3.1',
+216 silly addNameRange     '1.5.0',
+216 silly addNameRange     '1.5.1',
+216 silly addNameRange     '1.7.0',
+216 silly addNameRange     '1.7.1',
+216 silly addNameRange     '1.7.2',
+216 silly addNameRange     '1.7.3',
+216 silly addNameRange     '1.7.4',
+216 silly addNameRange     '1.7.5',
+216 silly addNameRange     '1.7.6',
+216 silly addNameRange     '1.7.7',
+216 silly addNameRange     '1.7.8',
+216 silly addNameRange     '2.0.0',
+216 silly addNameRange     '2.0.1' ] ]
+217 verbose addNamed [ 'uglify-js-brunch', '2.0.1' ]
+218 verbose addNamed [ '2.0.1', '2.0.1' ]
+219 silly lockFile 670853b1-uglify-js-brunch-2-0-1 uglify-js-brunch@2.0.1
+220 verbose lock uglify-js-brunch@2.0.1 /home/vagrant/.npm/670853b1-uglify-js-brunch-2-0-1.lock
+221 silly lockFile 670853b1-uglify-js-brunch-2-0-1 uglify-js-brunch@2.0.1
+222 silly lockFile 670853b1-uglify-js-brunch-2-0-1 uglify-js-brunch@2.0.1
+223 silly lockFile d368487a-uglify-js-brunch-2-0-1 uglify-js-brunch@~2.0.1
+224 silly lockFile d368487a-uglify-js-brunch-2-0-1 uglify-js-brunch@~2.0.1
+225 http 404 https://registry.npmjs.org/phoenix_html
+226 silly registry.get cb [ 404,
+226 silly registry.get   { 'content-type': 'application/json',
+226 silly registry.get     'cache-control': 'max-age=0',
+226 silly registry.get     'content-length': '2',
+226 silly registry.get     'accept-ranges': 'bytes',
+226 silly registry.get     date: 'Thu, 27 Oct 2016 13:31:18 GMT',
+226 silly registry.get     via: '1.1 varnish',
+226 silly registry.get     age: '0',
+226 silly registry.get     connection: 'keep-alive',
+226 silly registry.get     'x-served-by': 'cache-nrt6126-NRT',
+226 silly registry.get     'x-cache': 'MISS',
+226 silly registry.get     'x-cache-hits': '0',
+226 silly registry.get     'x-timer': 'S1477575077.692535,VS0,VE732',
+226 silly registry.get     vary: 'Accept-Encoding' } ]
+227 info maybeGithub Attempting file:deps/phoenix_html from git://github.com/file:deps/phoenix_html
+228 silly lockFile f4155054-ithub-com-file-deps-phoenix-html git://github.com/file:deps/phoenix_html
+229 verbose lock git://github.com/file:deps/phoenix_html /home/vagrant/.npm/f4155054-ithub-com-file-deps-phoenix-html.lock
+230 verbose addRemoteGit [ 'git://github.com/file:deps/phoenix_html', 'master' ]
+231 warn `git config --get remote.origin.url` returned wrong result (git://github.com/file:deps/phoenix_html) undefined
+231 warn `git config --get remote.origin.url` returned wrong result (git://github.com/file:deps/phoenix_html) undefined
+232 verbose git clone git://github.com/file:deps/phoenix_html undefined
+232 verbose git clone git://github.com/file:deps/phoenix_html undefined
+233 silly lockFile f4155054-ithub-com-file-deps-phoenix-html git://github.com/file:deps/phoenix_html
+234 silly lockFile f4155054-ithub-com-file-deps-phoenix-html git://github.com/file:deps/phoenix_html
+235 info maybeGithub Attempting file:deps/phoenix_html from git+ssh://git@github.com:file:deps/phoenix_html
+236 silly lockFile 50a27b71-ithub-com-file-deps-phoenix-html git@github.com:file:deps/phoenix_html
+237 verbose lock git@github.com:file:deps/phoenix_html /home/vagrant/.npm/50a27b71-ithub-com-file-deps-phoenix-html.lock
+238 verbose addRemoteGit [ 'git@github.com:file:deps/phoenix_html', 'master' ]
+239 warn `git config --get remote.origin.url` returned wrong result (git@github.com:file:deps/phoenix_html) undefined
+239 warn `git config --get remote.origin.url` returned wrong result (git@github.com:file:deps/phoenix_html) undefined
+240 error git clone git@github.com:file:deps/phoenix_html undefined
+240 error git clone git@github.com:file:deps/phoenix_html undefined
+241 silly lockFile 50a27b71-ithub-com-file-deps-phoenix-html git@github.com:file:deps/phoenix_html
+242 silly lockFile 50a27b71-ithub-com-file-deps-phoenix-html git@github.com:file:deps/phoenix_html
+243 silly lockFile 3d88e48d-enix-html-file-deps-phoenix-html phoenix_html@file:deps/phoenix_html
+244 silly lockFile 3d88e48d-enix-html-file-deps-phoenix-html phoenix_html@file:deps/phoenix_html
+245 http 304 https://registry.npmjs.org/javascript-brunch
+246 silly registry.get cb [ 304,
+246 silly registry.get   { date: 'Thu, 27 Oct 2016 13:31:17 GMT',
+246 silly registry.get     via: '1.1 varnish',
+246 silly registry.get     'cache-control': 'max-age=300',
+246 silly registry.get     etag: '"29I869TOMAOKBX6F9X34ADN83"',
+246 silly registry.get     age: '0',
+246 silly registry.get     connection: 'keep-alive',
+246 silly registry.get     'x-served-by': 'cache-nrt6124-NRT',
+246 silly registry.get     'x-cache': 'HIT',
+246 silly registry.get     'x-cache-hits': '1',
+246 silly registry.get     'x-timer': 'S1477575077.879515,VS0,VE608',
+246 silly registry.get     vary: 'Accept-Encoding' } ]
+247 verbose etag https://registry.npmjs.org/javascript-brunch from cache
+248 silly addNameRange number 2 { name: 'javascript-brunch',
+248 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
+248 silly addNameRange   hasData: true }
+249 silly addNameRange versions [ 'javascript-brunch',
+249 silly addNameRange   [ '1.0.0',
+249 silly addNameRange     '1.1.0',
+249 silly addNameRange     '1.1.1',
+249 silly addNameRange     '1.3.0',
+249 silly addNameRange     '1.5.0',
+249 silly addNameRange     '1.5.1',
+249 silly addNameRange     '1.6.0',
+249 silly addNameRange     '1.7.0',
+249 silly addNameRange     '1.7.1',
+249 silly addNameRange     '1.8.0',
+249 silly addNameRange     '2.0.0' ] ]
+250 verbose addNamed [ 'javascript-brunch', '2.0.0' ]
+251 verbose addNamed [ '2.0.0', '2.0.0' ]
+252 silly lockFile 67fa401c-javascript-brunch-2-0-0 javascript-brunch@2.0.0
+253 verbose lock javascript-brunch@2.0.0 /home/vagrant/.npm/67fa401c-javascript-brunch-2-0-0.lock
+254 silly lockFile 67fa401c-javascript-brunch-2-0-0 javascript-brunch@2.0.0
+255 silly lockFile 67fa401c-javascript-brunch-2-0-0 javascript-brunch@2.0.0
+256 silly lockFile ba3f7e2f-javascript-brunch-2-0-0 javascript-brunch@~2.0.0
+257 silly lockFile ba3f7e2f-javascript-brunch-2-0-0 javascript-brunch@~2.0.0
+258 http 304 https://registry.npmjs.org/css-brunch
+259 silly registry.get cb [ 304,
+259 silly registry.get   { date: 'Thu, 27 Oct 2016 13:31:17 GMT',
+259 silly registry.get     via: '1.1 varnish',
+259 silly registry.get     'cache-control': 'max-age=300',
+259 silly registry.get     etag: '"4YX2L1NJVSI2XGV2B6L7CKNYH"',
+259 silly registry.get     age: '0',
+259 silly registry.get     connection: 'keep-alive',
+259 silly registry.get     'x-served-by': 'cache-nrt6120-NRT',
+259 silly registry.get     'x-cache': 'HIT',
+259 silly registry.get     'x-cache-hits': '1',
+259 silly registry.get     'x-timer': 'S1477575077.850370,VS0,VE689',
+259 silly registry.get     vary: 'Accept-Encoding' } ]
+260 verbose etag https://registry.npmjs.org/css-brunch from cache
+261 silly addNameRange number 2 { name: 'css-brunch',
+261 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
+261 silly addNameRange   hasData: true }
+262 silly addNameRange versions [ 'css-brunch',
+262 silly addNameRange   [ '1.0.0',
+262 silly addNameRange     '1.1.0',
+262 silly addNameRange     '1.1.1',
+262 silly addNameRange     '1.3.0',
+262 silly addNameRange     '1.5.0',
+262 silly addNameRange     '1.5.1',
+262 silly addNameRange     '1.6.0',
+262 silly addNameRange     '1.7.0',
+262 silly addNameRange     '2.0.0',
+262 silly addNameRange     '2.6.0',
+262 silly addNameRange     '2.6.1' ] ]
+263 verbose addNamed [ 'css-brunch', '2.0.0' ]
+264 verbose addNamed [ '2.0.0', '2.0.0' ]
+265 silly lockFile 708400cd-css-brunch-2-0-0 css-brunch@2.0.0
+266 verbose lock css-brunch@2.0.0 /home/vagrant/.npm/708400cd-css-brunch-2-0-0.lock
+267 silly lockFile 708400cd-css-brunch-2-0-0 css-brunch@2.0.0
+268 silly lockFile 708400cd-css-brunch-2-0-0 css-brunch@2.0.0
+269 silly lockFile 1da32090-css-brunch-2-0-0 css-brunch@~2.0.0
+270 silly lockFile 1da32090-css-brunch-2-0-0 css-brunch@~2.0.0
+271 error notarget No compatible version found: phoenix@'file:deps/phoenix'
+271 error notarget Valid install targets:
+271 error notarget ["0.1.1-dev","1.2.0-rc.0","1.2.0","1.2.1"]
+271 error notarget
+271 error notarget This is most likely not a problem with npm itself.
+271 error notarget In most cases you or one of your dependencies are requesting
+271 error notarget a package version that doesn't exist.
+272 error System Linux 3.13.0-100-generic
+273 error command "/usr/bin/node" "/usr/bin/npm" "install"
+274 error cwd /home/vagrant/phoenix_blog
+275 error node -v v0.10.37
+276 error npm -v 1.4.28
+277 error code ETARGET
+278 verbose exit [ 1, true ]
